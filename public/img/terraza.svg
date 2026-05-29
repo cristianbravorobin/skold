@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="ps" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101b26"/>
+      <stop offset="1" stop-color="#243042"/>
+    </linearGradient>
+    <radialGradient id="pg" cx="0.5" cy="0.55" r="0.5">
+      <stop offset="0" stop-color="#ffb05a" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffb05a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#ps)"/>
+  <!-- deck de madera -->
+  <rect x="0" y="640" width="1200" height="260" fill="#6b4a2f"/>
+  <g stroke="#5a3e27" stroke-width="3">
+    <line x1="0" y1="700" x2="1200" y2="700"/><line x1="0" y1="770" x2="1200" y2="770"/><line x1="0" y1="840" x2="1200" y2="840"/>
+  </g>
+  <!-- barandilla -->
+  <rect x="80" y="430" width="1040" height="10" rx="5" fill="#3a2a1c"/>
+  <!-- estrellas -->
+  <g fill="#ffffff88"><circle cx="180" cy="120" r="2"/><circle cx="340" cy="80" r="2.5"/><circle cx="900" cy="140" r="2"/><circle cx="1050" cy="90" r="2.5"/><circle cx="640" cy="60" r="2"/></g>
+  <!-- glow + torre -->
+  <circle cx="600" cy="540" r="240" fill="url(#pg)"/>
+  <rect x="566" y="360" width="68" height="240" rx="12" fill="#120c08"/>
+  <g transform="translate(600,580)">
+    <path d="M0,0 C-26,-70 -16,-120 -6,-190 C-9,-120 11,-120 6,-190 C20,-110 26,-60 0,0 Z" fill="#ff7a18"/>
+    <path d="M0,-10 C-14,-70 -9,-120 0,-160 C-4,-110 8,-110 5,-160 C14,-100 16,-60 0,-10 Z" fill="#ffd27a"/>
+  </g>
+  <rect x="552" y="596" width="96" height="80" rx="12" fill="#2a2521"/>
+  <text x="600" y="860" font-family="Georgia, serif" font-size="32" fill="#ffffffcc" text-anchor="middle">Terraza todo el año</text>
+</svg>

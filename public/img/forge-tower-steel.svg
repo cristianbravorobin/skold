@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14202b"/>
+      <stop offset="1" stop-color="#2c2723"/>
+    </linearGradient>
+    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7d848a"/>
+      <stop offset="1" stop-color="#4f565c"/>
+    </linearGradient>
+    <radialGradient id="tglow" cx="0.5" cy="0.32" r="0.4">
+      <stop offset="0" stop-color="#ff9b3d" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff9b3d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <rect x="0" y="660" width="800" height="140" fill="#3a3531"/>
+  <ellipse cx="400" cy="700" rx="190" ry="24" fill="#00000033"/>
+  <circle cx="400" cy="250" r="190" fill="url(#tglow)"/>
+  <!-- columna de vidrio con llama vertical -->
+  <rect x="356" y="170" width="88" height="320" rx="14" fill="#120c08"/>
+  <rect x="356" y="170" width="88" height="320" rx="14" fill="none" stroke="#00000033" stroke-width="8"/>
+  <g transform="translate(400,470)">
+    <path d="M0,0 C-34,-90 -22,-150 -8,-250 C-12,-150 14,-150 8,-250 C26,-150 34,-80 0,0 Z" fill="#ff7a18"/>
+    <path d="M0,-10 C-20,-90 -12,-150 -3,-220 C-6,-150 10,-150 6,-215 C18,-140 22,-80 0,-10 Z" fill="#ffb627"/>
+    <path d="M0,-20 C-10,-80 -6,-130 0,-180 C-2,-130 6,-130 4,-175 C10,-110 9,-70 0,-20 Z" fill="#ffe08a"/>
+  </g>
+  <!-- base / cuerpo -->
+  <rect x="336" y="486" width="128" height="120" rx="16" fill="url(#tg)"/>
+  <rect x="320" y="600" width="160" height="34" rx="10" fill="#4f565c"/>
+  <!-- tapa superior -->
+  <rect x="344" y="150" width="112" height="30" rx="10" fill="url(#tg)"/>
+  <circle cx="400" cy="165" r="6" fill="#00000033"/>
+  <!-- patas -->
+  <rect x="346" y="632" width="22" height="40" rx="7" fill="#1a1614"/>
+  <rect x="432" y="632" width="22" height="40" rx="7" fill="#1a1614"/>
+</svg>
