@@ -130,6 +130,12 @@ import { ProductCardComponent } from '../shared/product-card.component';
     .hero h1 { font-size: clamp(2.6rem, 7vw, 4.6rem); margin: 1.1rem 0; }
     .hero p { font-size: 1.12rem; line-height: 1.6; color: #d8cdbe; max-width: 48ch; }
     .hero__cta { display: flex; gap: .8rem; margin-top: 1.8rem; flex-wrap: wrap; }
+    .hero__cta ::ng-deep .p-button-outlined {
+      color: #fff; border-color: rgba(255,255,255,.55); background: transparent;
+    }
+    .hero__cta ::ng-deep .p-button-outlined:hover {
+      color: #fff; background: rgba(255,255,255,.12); border-color: #fff;
+    }
     .hero__trust { display: flex; gap: 1.6rem; list-style: none; padding: 0; margin: 2.2rem 0 0; flex-wrap: wrap; color: #cdbfae; font-size: .9rem; font-weight: 600; }
     .hero__trust i { color: var(--sk-ember); margin-right: .4rem; }
 
